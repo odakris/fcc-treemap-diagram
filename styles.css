@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container,
+body {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(#949099, #33675d);
+}
+
+#treemap {
+  background-color: black;
+}
+
+#tooltip {
+  padding: 10px;
+  border: 2px solid linen;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.margin {
+  margin-bottom: 10px;
+}
+
+#credit > a {
+  color: linen;
+}
